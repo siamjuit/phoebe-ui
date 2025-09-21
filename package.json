@@ -3,7 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "description": "Minimal, accessible React components built on Radix UI and Tailwind CSS",
-  "keywords": ["react", "components", "ui", "radix", "tailwind", "accessibility"],
+  "keywords": [
+    "react",
+    "components",
+    "ui",
+    "radix",
+    "tailwind",
+    "accessibility"
+  ],
   "repository": "https://github.com/siamjuit/phoebe-ui",
   "license": "MIT",
   "workspaces": [
@@ -27,7 +34,7 @@
     "release": "pnpm build && changeset publish"
   },
   "devDependencies": {
-    "@changesets/cli": "^2.27.1",
+    "@changesets/cli": "^2.29.7",
     "@typescript-eslint/eslint-plugin": "^6.21.0",
     "@typescript-eslint/parser": "^6.21.0",
     "eslint": "^8.57.0",

@@ -5,14 +5,7 @@ module.exports = {
     es2020: true,
     node: true,
   },
-  extends: [
-    'eslint:recommended',
-    '@typescript-eslint/recommended',
-    'plugin:react/recommended',
-    'plugin:react-hooks/recommended',
-    'plugin:jsx-a11y/recommended',
-    'prettier',
-  ],
+  extends: ['eslint:recommended', '@typescript-eslint/recommended', 'plugin:react/recommended', 'plugin:react-hooks/recommended', 'plugin:jsx-a11y/recommended', 'prettier', 'plugin:storybook/recommended'],
   ignorePatterns: ['dist', '.eslintrc.cjs'],
   parser: '@typescript-eslint/parser',
   parserOptions: {

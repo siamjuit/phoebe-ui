@@ -9,7 +9,7 @@ importers:
   .:
     devDependencies:
       '@changesets/cli':
-        specifier: ^2.27.1
+        specifier: ^2.29.7
         version: 2.29.7
       '@typescript-eslint/eslint-plugin':
         specifier: ^6.21.0
@@ -54,6 +54,9 @@ importers:
         specifier: ^6.21.3
         version: 6.30.1(react-dom@18.3.1)(react@18.3.1)
     devDependencies:
+      '@storybook/addon-a11y':
+        specifier: ^7.6.17
+        version: 7.6.20
       '@storybook/addon-essentials':
         specifier: ^7.6.17
         version: 7.6.20(@types/react-dom@18.3.7)(@types/react@18.3.24)(react-dom@18.3.1)(react@18.3.1)
@@ -130,6 +133,9 @@ importers:
       '@types/node':
         specifier: ^20.11.17
         version: 20.19.17
+      '@types/prompts':
+        specifier: ^2.4.9
+        version: 2.4.9
       tsup:
         specifier: ^8.0.2
         version: 8.5.0(typescript@5.9.2)
@@ -155,6 +161,9 @@ importers:
         specifier: ^2.2.1
         version: 2.6.0
     devDependencies:
+      '@storybook/react':
+        specifier: ^7.6.17
+        version: 7.6.20(react-dom@18.3.1)(react@18.3.1)(typescript@5.9.2)
       '@testing-library/jest-dom':
         specifier: ^6.4.2
         version: 6.8.0
@@ -165,10 +174,10 @@ importers:
         specifier: ^14.5.2
         version: 14.6.1(@testing-library/dom@10.4.1)
       '@types/react':
-        specifier: ^18.2.55
+        specifier: ^18.3.24
         version: 18.3.24
       '@types/react-dom':
-        specifier: ^18.2.19
+        specifier: ^18.3.7
         version: 18.3.7(@types/react@18.3.24)
       '@vitejs/plugin-react':
         specifier: ^4.2.1
@@ -3807,6 +3816,13 @@ packages:
     resolution: {integrity: sha512-+Fj43pSMwJs4KRrH/938Uf+uAELIgVBmQzg/q1YG10djyfA3TnrU8N8XzqCh/okZdszqBQTZf96idMfE5lnwTA==}
     dev: true
 
+  /@storybook/addon-a11y@7.6.20:
+    resolution: {integrity: sha512-t19O2KW+8NF8mdxAZdubpe0s/3x7z5cl4LdyiNQgYxcUGjhjAUD+C3UvEUsRxG71ZAID/VC8SX+G2HX5TENGHA==}
+    dependencies:
+      '@storybook/addon-highlight': 7.6.20
+      axe-core: 4.10.3
+    dev: true
+
   /@storybook/addon-actions@7.6.20:
     resolution: {integrity: sha512-c/GkEQ2U9BC/Ew/IMdh+zvsh4N6y6n7Zsn2GIhJgcu9YEAa5aF2a9/pNgEGBMOABH959XE8DAOMERw/5qiLR8g==}
     dependencies:
@@ -4776,6 +4792,13 @@ packages:
 
   /@types/pretty-hrtime@1.0.3:
     resolution: {integrity: sha512-nj39q0wAIdhwn7DGUyT9irmsKK1tV0bd5WFEhgpqNTMFZ8cE+jieuTphCW0tfdm47S2zVT5mr09B28b1chmQMA==}
+    dev: true
+
+  /@types/prompts@2.4.9:
+    resolution: {integrity: sha512-qTxFi6Buiu8+50/+3DGIWLHM6QuWsEKugJnnP6iv2Mc4ncxE4A/OJkjuVOA+5X0X1S/nq5VJRa8Lu+nwcvbrKA==}
+    dependencies:
+      '@types/node': 20.19.17
+      kleur: 3.0.3
     dev: true
 
   /@types/prop-types@15.7.15:
