@@ -1,4 +1,4 @@
-import React, { ReactNode } from 'react';
+import { ReactNode } from 'react';
 import { cn } from '../../utils/cn';
 
 export interface ContributorInfo{
@@ -13,7 +13,7 @@ interface DemoCanvasProps {
     className ?: string
 }
 
-export function DemoCnavas({
+export function DemoCanvas({
     children,
     contributor,
     className
