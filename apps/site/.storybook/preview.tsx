@@ -1,6 +1,6 @@
 import type { Preview } from '@storybook/react'
 import { TooltipProvider } from '@phoebe-ui/core'
-import '../src/index.css'
+import '../index.css'
 
 const preview: Preview = {
   parameters: {

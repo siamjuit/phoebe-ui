@@ -8,6 +8,7 @@ import { ButtonPage } from './pages/components/ButtonPage'
 import { CarouselPage } from './pages/components/CarouselPage'
 import { ModalPage } from './pages/components/ModalPage'
 import { TooltipPage } from './pages/components/TooltipPage'
+import { NotFoundPage } from './pages/NotFoundPage'
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/components/carousel" element={<CarouselPage />} />
         <Route path="/components/modal" element={<ModalPage />} />
         <Route path="/components/tooltip" element={<TooltipPage />} />
+        <Route path="*" element={<NotFoundPage />} />
       </Routes>
     </Layout>
   )
